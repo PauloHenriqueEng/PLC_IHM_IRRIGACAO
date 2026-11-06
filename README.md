@@ -4,10 +4,6 @@ Projeto de automação para irrigação por gotejamento em plantação de café,
 desenvolvido como trabalho de conclusão do curso de Bacharelado em Engenharia
 Elétrica.
 
-![TIA Portal](https://img.shields.io/badge/TIA%20Portal-V16-blue)
-![CLP](https://img.shields.io/badge/CLP-S7--1200%20CPU%201214C-green)
-![Status](https://img.shields.io/badge/status-defendido-brightgreen)
-
 ---
 
 ## Download do projeto
@@ -20,7 +16,6 @@ O projeto completo (PLC + IHM) está disponível na página de Releases:
 |---|---|
 | Versão | V1.0 — versão da defesa |
 | Arquivo | `PAINEL_PLC_IRRIGACAO_20261105.zap16` |
-| Tamanho | 3,02 MB |
 | Formato | Archive do TIA Portal (`.zap16`) |
 | Software | TIA Portal V16 ou superior |
 
@@ -35,7 +30,7 @@ PLC, as telas da IHM, as tags e os alarmes já vinculados.
 | Componente | Modelo / Especificação |
 |---|---|
 | CLP | SIMATIC S7-1200 — CPU 1214C DC/DC/DC |
-| IHM | Painel Comfort (WinCC) |
+| IHM | KTP400 Basic PN |
 | Software de engenharia | TIA Portal V16 |
 | Comunicação | Ethernet PROFINET entre CLP e IHM |
 | Acionamento | Válvulas solenoides por setor e motobombas (principal e de produtos) |
@@ -108,7 +103,6 @@ transferência e sobreviva a uma restauração de fábrica do painel.
 | Documento | Onde está |
 |---|---|
 | Monografia do TCC | Repositório institucional da universidade |
-| Lógica do programa (LAD) | Apêndice do TCC, gerado por impressão do TIA Portal |
 | Projeto completo | Release V1.0 deste repositório |
 
 ---
@@ -118,10 +112,3 @@ transferência e sobreviva a uma restauração de fábrica do painel.
 **Paulo Henrique**
 Bacharelado em Engenharia Elétrica
 Trabalho de Conclusão de Curso — 2026
-
----
-
-## Licença
-
-Projeto de caráter acadêmico, disponibilizado para consulta e referência.
-As bibliotecas e blocos de sistema utilizados pertencem à Siemens AG.
